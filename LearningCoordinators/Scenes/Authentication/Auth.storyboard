@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14810.11" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BgV-Ei-EJC">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14766.13"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Auth View Controller-->
+        <scene sceneID="wMJ-eG-DSc">
+            <objects>
+                <viewController storyboardIdentifier="AuthViewController" id="BgV-Ei-EJC" customClass="AuthViewController" customModule="CoordinatorTest" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="UPW-mM-GcK" customClass="Auth">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Authentication" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="k3M-ra-k8m">
+                                <rect key="frame" x="113" y="92" width="188" height="36"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle0"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b9d-VJ-cOj">
+                                <rect key="frame" x="183.5" y="433" width="47" height="30"/>
+                                <state key="normal" title="Sign In"/>
+                                <connections>
+                                    <action selector="signInButtonTapped:" destination="BgV-Ei-EJC" eventType="touchUpInside" id="7Af-KR-Nf7"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" xcode11CocoaTouchSystemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="k3M-ra-k8m" firstAttribute="centerX" secondItem="UPW-mM-GcK" secondAttribute="centerX" id="EYl-dV-TDp"/>
+                            <constraint firstItem="k3M-ra-k8m" firstAttribute="top" secondItem="mJO-eA-ZIF" secondAttribute="top" constant="48" id="Oxa-AM-eLt"/>
+                            <constraint firstItem="b9d-VJ-cOj" firstAttribute="centerY" secondItem="UPW-mM-GcK" secondAttribute="centerY" id="ZNM-fZ-IBN"/>
+                            <constraint firstItem="b9d-VJ-cOj" firstAttribute="centerX" secondItem="UPW-mM-GcK" secondAttribute="centerX" id="iev-fr-I3Y"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="mJO-eA-ZIF"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Znr-Dy-7kx" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-272" y="305"/>
+        </scene>
+    </scenes>
+</document>
