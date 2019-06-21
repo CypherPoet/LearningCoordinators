@@ -10,6 +10,7 @@
 		F33073AB22BC84B000F7BEB9 /* AboutDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F33073AA22BC84B000F7BEB9 /* AboutDetailViewController.swift */; };
 		F33073AD22BC884000F7BEB9 /* AboutViewControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F33073AC22BC884000F7BEB9 /* AboutViewControllerDelegate.swift */; };
 		F33073AF22BC93B300F7BEB9 /* NavigationCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F33073AE22BC93B300F7BEB9 /* NavigationCoordinator.swift */; };
+		F33073B122BC96F600F7BEB9 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = F33073B022BC96F600F7BEB9 /* README.md */; };
 		F376ADB022B922C50014BB94 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F376ADAF22B922C50014BB94 /* AppDelegate.swift */; };
 		F376ADB222B922C50014BB94 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F376ADB122B922C50014BB94 /* SceneDelegate.swift */; };
 		F376ADB422B922C50014BB94 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F376ADB322B922C50014BB94 /* MainTabBarController.swift */; };
@@ -40,6 +41,7 @@
 		F33073AA22BC84B000F7BEB9 /* AboutDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutDetailViewController.swift; sourceTree = "<group>"; };
 		F33073AC22BC884000F7BEB9 /* AboutViewControllerDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewControllerDelegate.swift; sourceTree = "<group>"; };
 		F33073AE22BC93B300F7BEB9 /* NavigationCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationCoordinator.swift; sourceTree = "<group>"; };
+		F33073B022BC96F600F7BEB9 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
 		F376ADAC22B922C50014BB94 /* LearningCoordinators.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LearningCoordinators.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F376ADAF22B922C50014BB94 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F376ADB122B922C50014BB94 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -82,6 +84,7 @@
 		F376ADA322B922C50014BB94 = {
 			isa = PBXGroup;
 			children = (
+				F33073B022BC96F600F7BEB9 /* README.md */,
 				F376ADAE22B922C50014BB94 /* LearningCoordinators */,
 				F376ADAD22B922C50014BB94 /* Products */,
 			);
@@ -246,6 +249,7 @@
 			files = (
 				F376ADE722BA7DE80014BB94 /* Auth.storyboard in Resources */,
 				F376ADD222B97C910014BB94 /* Main.storyboard in Resources */,
+				F33073B122BC96F600F7BEB9 /* README.md in Resources */,
 				F376ADB922B922C70014BB94 /* Assets.xcassets in Resources */,
 				F376ADD122B97C910014BB94 /* LaunchScreen.storyboard in Resources */,
 			);
